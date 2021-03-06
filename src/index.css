@@ -5,7 +5,7 @@
   --header:rgb(7, 8, 127);
   --about-me: rgb(170, 45, 70);
   --work:rgb(113, 28, 130);
-  --contact: rgb(43, 167, 199);
+  --contact-form: rgb(43, 167, 199);
   --resume: rgb(219, 142, 18)
 }
 
@@ -26,7 +26,7 @@ header {
 }
 
 .contact {
-  background-color: var(--contact) !important;
+  background-color: var(--header) !important;
 }
 
 .contact ul {
@@ -102,8 +102,23 @@ section h2 {
     list-style: none;
   }
 
-  .prof li:before{
+  .prof li:before {
     content: '☑️ ';
   }
 
+  .contact-form {
+  background-color: var(--contact-form);
+  }
+
+  .contact-form label {
+    font-size: 30px
+  }
+
+  .contact-form  p {
+    font-size: 20px
+  }
+
+  .contact-form button:hover {
+    color: var(--contact-form) !important; 
+  }
 } 

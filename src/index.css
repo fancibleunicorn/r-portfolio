@@ -13,6 +13,16 @@ header {
   background-color: var(--header) !important;
 }
 
+header a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+header a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .about {
   background-color: var(--about-me) !important;
 }

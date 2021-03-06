@@ -6,6 +6,7 @@
   --about-me: rgb(170, 45, 70);
   --work:rgb(113, 28, 130);
   --contact: rgb(43, 167, 199);
+  --resume: rgb(219, 142, 18)
 }
 
 header {
@@ -54,6 +55,10 @@ header {
   transition: 1s;
 }
 
+.resume {
+  background-color: var(--resume);
+}
+
 section h2 {
   font-size: 50px;
 }
@@ -87,4 +92,18 @@ section h2 {
   .contact li {
       padding:0px 35px;
   }
-}
+
+  .prof {
+    font-size: 30px;
+  }
+
+  .prof li {
+    padding-bottom: 10px; 
+    list-style: none;
+  }
+
+  .prof li:before{
+    content: '☑️ ';
+  }
+
+} 

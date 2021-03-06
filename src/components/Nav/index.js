@@ -40,7 +40,7 @@ function Nav(props) {
     return(
     <header className="card rounded-larger m-1">
         <h1 id="header" className="card-title text-light p-2 px-4 font-weight-bold">
-        <a href="/">@fancibleunicorn</a>
+        <a href="/r-portfolio">@fancibleunicorn</a>
         </h1>
             <ul className="nav">
                 <li className="nav-item">

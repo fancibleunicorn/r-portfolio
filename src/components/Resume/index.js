@@ -27,7 +27,7 @@ function Resume() {
                             <li>React</li>
                             <li>Boostrap</li>
                             <li>Handlebars</li>
-                            <li>Progress Web Apps (PWA's)</li>
+                            <li>Progressive Web Apps (PWA's)</li>
                         </ul>
                     </div>
                     <div className="col">
